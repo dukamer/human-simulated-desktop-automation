@@ -20,3 +20,4 @@ Ready-to-use JSON templates designed for **Multi-Task AutoClick Studio**. Each s
 4. Select any `.json` file from this directory.
 5. Hit **`Space`** to adjust coordinates to your personal screen resolution if necessary.
 6. Press **`F5`** (or the tab's dedicated hotkey) to start!
+
