@@ -1,0 +1,56 @@
+{
+    "name": "🗂️ AdsPower & GoLogin Multi-Window Sync",
+    "description": "Multi-tab automation across 2 tiled browser profiles simultaneously without thread contention.",
+    "version": "1.0",
+    "sound_enabled": true,
+    "coord_lists": [
+        {
+            "name": "Profile 1 (Left Window)",
+            "hotkey": "",
+            "coordinates": [
+                {
+                    "type": "click",
+                    "x": 480,
+                    "y": 540,
+                    "click_type": "left"
+                },
+                {
+                    "type": "click",
+                    "x": 480,
+                    "y": 680,
+                    "click_type": "left"
+                }
+            ],
+            "click_time": 0.3,
+            "loop_count": 5,
+            "loop_delay_min": 2.0,
+            "loop_delay_max": 4.5,
+            "infinite_loop": false,
+            "jitter": true
+        },
+        {
+            "name": "Profile 2 (Right Window)",
+            "hotkey": "",
+            "coordinates": [
+                {
+                    "type": "click",
+                    "x": 1440,
+                    "y": 540,
+                    "click_type": "left"
+                },
+                {
+                    "type": "click",
+                    "x": 1440,
+                    "y": 680,
+                    "click_type": "left"
+                }
+            ],
+            "click_time": 0.3,
+            "loop_count": 5,
+            "loop_delay_min": 2.2,
+            "loop_delay_max": 4.8,
+            "infinite_loop": false,
+            "jitter": true
+        }
+    ]
+}

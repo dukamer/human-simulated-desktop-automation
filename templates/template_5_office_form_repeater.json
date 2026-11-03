@@ -1,0 +1,41 @@
+{
+    "name": "📋 Office Batch Data Entry Repeater",
+    "description": "High-speed key sequence and tab navigation for batch form submissions with 50ms killswitch safety.",
+    "version": "1.0",
+    "sound_enabled": true,
+    "coord_lists": [
+        {
+            "name": "Form Input Loop",
+            "hotkey": "F10",
+            "coordinates": [
+                {
+                    "type": "click",
+                    "x": 640,
+                    "y": 420,
+                    "click_type": "left"
+                },
+                {
+                    "type": "hotkey",
+                    "modifier": "ctrl",
+                    "key": "v"
+                },
+                {
+                    "type": "hotkey",
+                    "modifier": "",
+                    "key": "tab"
+                },
+                {
+                    "type": "hotkey",
+                    "modifier": "",
+                    "key": "enter"
+                }
+            ],
+            "click_time": 0.2,
+            "loop_count": 50,
+            "loop_delay_min": 0.8,
+            "loop_delay_max": 1.5,
+            "infinite_loop": false,
+            "jitter": false
+        }
+    ]
+}

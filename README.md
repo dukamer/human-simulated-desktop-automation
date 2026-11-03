@@ -76,6 +76,18 @@ Safety-first design. Hit `ESC` at any millisecond to immediately terminate all a
 
 ---
 
+## 📂 Free Sample Automation Templates
+
+We include a collection of pre-built, production-tested `.json` workflow templates in the [`/templates`](templates/) directory:
+
+- [Daily Testnet Check-in](templates/template_1_daily_testnet_checkin.json): Automated login & signing sequence with jitter.
+- [Periodic Faucet Claimer](templates/template_2_faucet_auto_claim_jitter.json): 24-hour testnet claim routine with non-linear delays.
+- [Multi-Window Browser Sync](templates/template_3_multi_tab_adspower_sync.json): Concurrent execution across AdsPower / GoLogin.
+- [MMO Anti-AFK Routine](templates/template_4_mmo_afk_anti_ban.json): Natural human tremor and random camera rotations.
+- [Office Batch Data Entry](templates/template_5_office_form_repeater.json): Fast tabular keyboard entry with 50ms safety stop.
+
+---
+
 ## 📥 Download & Installation
 
 1. Head to the official website: [https://multitasksautoclick.nimbokit.com](https://multitasksautoclick.nimbokit.com) (or check [Releases](https://github.com/dukamer/human-simulated-desktop-automation/releases)).
@@ -102,3 +114,4 @@ Safety-first design. Hit `ESC` at any millisecond to immediately terminate all a
 <p align="center">
   <sub>© 2026 Human-Simulated Desktop Automation Studio. All rights reserved.</sub>
 </p>
+

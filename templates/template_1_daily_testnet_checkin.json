@@ -1,0 +1,38 @@
+{
+    "name": "🌐 Web3 Daily Testnet Check-in",
+    "description": "Automated workflow for daily testnet check-in and transaction confirmation with human jitter.",
+    "version": "1.0",
+    "sound_enabled": true,
+    "coord_lists": [
+        {
+            "name": "Check-in & Sign",
+            "hotkey": "F7",
+            "coordinates": [
+                {
+                    "type": "click",
+                    "x": 960,
+                    "y": 480,
+                    "click_type": "left"
+                },
+                {
+                    "type": "click",
+                    "x": 1050,
+                    "y": 620,
+                    "click_type": "left"
+                },
+                {
+                    "type": "click",
+                    "x": 1280,
+                    "y": 720,
+                    "click_type": "left"
+                }
+            ],
+            "click_time": 0.35,
+            "loop_count": 1,
+            "loop_delay_min": 1.5,
+            "loop_delay_max": 3.2,
+            "infinite_loop": false,
+            "jitter": true
+        }
+    ]
+}

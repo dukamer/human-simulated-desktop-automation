@@ -1,0 +1,32 @@
+{
+    "name": "🚰 Periodic Faucet Auto-Claimer",
+    "description": "Periodically claims testnet faucet tokens every 24h with randomized pause and ±2px jitter.",
+    "version": "1.0",
+    "sound_enabled": true,
+    "coord_lists": [
+        {
+            "name": "Faucet Claim Loop",
+            "hotkey": "F8",
+            "coordinates": [
+                {
+                    "type": "click",
+                    "x": 840,
+                    "y": 510,
+                    "click_type": "left"
+                },
+                {
+                    "type": "click",
+                    "x": 1020,
+                    "y": 680,
+                    "click_type": "left"
+                }
+            ],
+            "click_time": 0.4,
+            "loop_count": 10,
+            "loop_delay_min": 5.0,
+            "loop_delay_max": 12.0,
+            "infinite_loop": true,
+            "jitter": true
+        }
+    ]
+}

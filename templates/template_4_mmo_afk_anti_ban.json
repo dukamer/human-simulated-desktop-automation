@@ -1,0 +1,39 @@
+{
+    "name": "🛡️ MMO Anti-AFK Human Tremor Routine",
+    "description": "Simulates natural player presence with randomized movements, key presses, and right-clicks.",
+    "version": "1.0",
+    "sound_enabled": false,
+    "coord_lists": [
+        {
+            "name": "Anti-AFK Wander",
+            "hotkey": "F9",
+            "coordinates": [
+                {
+                    "type": "click",
+                    "x": 960,
+                    "y": 540,
+                    "click_type": "right"
+                },
+                {
+                    "type": "hotkey",
+                    "modifier": "",
+                    "key": "space"
+                },
+                {
+                    "type": "drag",
+                    "x1": 960,
+                    "y1": 540,
+                    "x2": 985,
+                    "y2": 535,
+                    "duration": 0.35
+                }
+            ],
+            "click_time": 0.25,
+            "loop_count": 0,
+            "loop_delay_min": 15.0,
+            "loop_delay_max": 45.0,
+            "infinite_loop": true,
+            "jitter": true
+        }
+    ]
+}
